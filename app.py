@@ -9,6 +9,7 @@ import pdf2image
 import google.generativeai as genai
 import base64
 import io
+import fitz
 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
